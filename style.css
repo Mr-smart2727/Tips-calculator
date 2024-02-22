@@ -18,6 +18,7 @@
     padding: 30px;
     margin-top: 20vh;
     border-radius:10px;
+    box-shadow: -10px 0 10px rgb(0, 0, 0);
 }
 
 #main-box button{
@@ -28,7 +29,15 @@
     cursor: pointer;
     width: 20%;
     border: none;
+    background-color:rgb(14, 13, 13);
+    color: rgb(230, 224, 224);
+    transition:all 0.5s ;
 } 
+
+#main-box button:hover{
+background-color:rgb(153, 144, 144);
+color: rgb(15, 15, 15);
+}
 
 #main-box input{
     border-radius: 20px;
