@@ -77,7 +77,8 @@
        margin-bottom: 10px;
     }
     #main-box{
-        width: 100%;
+        width: 90% 100%;
+        margin: 0 100px;
     }
     #main-box button{
         width: 70%;
